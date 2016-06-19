@@ -52,3 +52,6 @@
 [submodule "bundle/vim-atom-dark"]
 	path = bundle/vim-atom-dark
 	url = https://github.com/gosukiwi/vim-atom-dark.git
+[submodule "bundle/jedi"]
+	path = bundle/jedi
+	url = http://github.com/davidhalter/jedi-vim

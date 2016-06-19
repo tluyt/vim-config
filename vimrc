@@ -191,6 +191,14 @@ let g:Gitv_WipeAllOnClose = 1
 let g:Gitv_OpenPreviewOnLaunch = 0
 nmap <leader>gv :Gitv<cr>
 
+" jedi settings
+
+" remap the autocomplete command
+let g:jedi#completions_command = "<C-N>"
+
+" disable adding import automatically
+let g:jedi#smart_auto_mappings = 0
+
 " easy indentation in visual mode
 " this keeps the visual selection active after indenting, which is usually lost
 " after you indent it
